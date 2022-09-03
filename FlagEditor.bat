@@ -9,8 +9,8 @@ echo.
 echo 1) Remove Flags
 echo 2) Add Flags
 set/p "in=>"
-if %in%== 1 goto 1
-if %in%== 2 goto 2
+if "%in%"=="1" goto 1
+if "%in%"=="2" goto 2
 goto main
 
 :1
