@@ -1,5 +1,5 @@
-:main
 @echo off
+:main
 cls
 title Flag Editor
 echo Choose an action, by typing the corresponding number and pressing Enter
@@ -8,7 +8,7 @@ echo It is recommended not to change or resave LastState.log, unless you want to
 echo.
 echo 1) Remove Flags
 echo 2) Add Flags
-set/p "in=>"
+set /p "in=>"
 if "%in%"=="1" goto 1
 if "%in%"=="2" goto 2
 goto main
