@@ -1,5 +1,9 @@
 # Show-Seconds-In-System-Clock-Batch
 
+DISCLAIMER:
+This Script is fully functional in the intended way, but is currently being worked on in another branch.
+Please be aware, that this version of the Script is more of a Beta version, and therefore is limited to basic functionality.
+
 The Main File (UI.bat) is the main executable.
 The first execution of this script, will ask the User to define, whether or not seconds are currently visible in the clock, located in the Taskbar.
 This choice will be saved in a file called "LastState.log". This file has the Hidden, Read-Only and System flag, as messing with this file could disturb or otherwise alter the functionality of this script. It is not advised, to resave, or edit this file in any way.
